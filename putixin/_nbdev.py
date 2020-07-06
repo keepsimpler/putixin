@@ -2,9 +2,22 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"say_hello": "00_core.ipynb"}
+index = {"HamLinear": "000_hamilton.ipynb",
+         "cfg_fashion_mnist": "001_data.ipynb",
+         "cfg_fashion_mnist.DATASET": "001_data.ipynb",
+         "cfg_fashion_mnist.DATASET.NAME": "001_data.ipynb",
+         "cfg_fashion_mnist.DATASET.STATS": "001_data.ipynb",
+         "PUTIXIN_HOME": "001_data.ipynb",
+         "default_data_path": "001_data.ipynb",
+         "default_model_path": "001_data.ipynb",
+         "data": "001_data.ipynb",
+         "CfgNode": "002_config.ipynb",
+         "say_hello": "00_core.ipynb"}
 
-modules = ["core.py"]
+modules = ["hamilton.py",
+           "data.py",
+           "config.py",
+           "core.py"]
 
 doc_url = "https://keepsimpler.github.io/putixin/"
 
