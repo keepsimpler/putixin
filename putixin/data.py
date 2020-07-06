@@ -35,7 +35,7 @@ def data(cfg:CfgNode, transforms:list=None, path:str=None, bs:int=16):
     '''
     if transforms is None:
         to_tensor = torchvision.transforms.ToTensor()
-        normalize = torchvision.transforms.Normalize(cfg.DATASET.STATS)
+        normalize = torchvision.transforms.Normalize(*cfg.DATASET.STATS)
         transforms = torchvision.transforms.Compose([to_tensor, normalize])
 
 
