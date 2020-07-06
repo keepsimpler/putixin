@@ -3,6 +3,7 @@
 __all__ = ['cfg_fashion_mnist', 'PUTIXIN_HOME', 'default_data_path', 'default_model_path', 'data']
 
 # Cell
+# server
 import os
 #from pathlib import Path
 import torch
