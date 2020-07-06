@@ -1,7 +1,9 @@
 {
   "putixin": {
     "Overview": "/",
-    "Title": "/config",
+    "hamilton": "/hamilton",
+    "data": "/data",
+    "config": "/config",
     "Core": "/core"
   }
 }

@@ -10,7 +10,13 @@ entries:
       title: Overview
       url: /
     - output: web,pdf
-      title: Title
+      title: hamilton
+      url: /hamilton
+    - output: web,pdf
+      title: data
+      url: /data
+    - output: web,pdf
+      title: config
       url: /config
     - output: web,pdf
       title: Core
