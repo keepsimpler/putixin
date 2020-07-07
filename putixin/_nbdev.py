@@ -11,6 +11,7 @@ index = {"HamLinear": "000_hamilton.ipynb",
          "default_data_path": "001_data.ipynb",
          "default_model_path": "001_data.ipynb",
          "data": "001_data.ipynb",
+         "show_images": "001_data.ipynb",
          "CfgNode": "002_config.ipynb",
          "say_hello": "00_core.ipynb"}
 

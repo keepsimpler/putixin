@@ -114,95 +114,54 @@ summary: "API details."
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">randn</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span>
+<span class="n">x</span><span class="o">.</span><span class="n">permute</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">shape</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
 <div class="output_wrapper">
 <div class="output">
 
 <div class="output_area">
 
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Downloading http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz to /home/fengwf/.putixin/data/FashionMNIST/raw/train-images-idx3-ubyte.gz
-</pre>
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>torch.Size([2, 4, 4, 3])</pre>
+</div>
+
+</div>
+
 </div>
 </div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+
+<div class="output_wrapper">
+<div class="output">
 
 <div class="output_area">
 
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>100.0%</pre>
-</div>
+
+<div class="output_markdown rendered_html output_subarea ">
+<h4 id="show_images" class="doc_header"><code>show_images</code><a href="https://github.com/keepsimpler/putixin/tree/master/putixin/data.py#L63" class="source_link" style="float:right">[source]</a></h4><blockquote><p><code>show_images</code>(<strong><code>images</code></strong>, <strong><code>titles</code></strong>, <strong><code>rows</code></strong>, <strong><code>figsize</code></strong>)</p>
+</blockquote>
+
 </div>
 
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Extracting /home/fengwf/.putixin/data/FashionMNIST/raw/train-images-idx3-ubyte.gz to /home/fengwf/.putixin/data/FashionMNIST/raw
-Downloading http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-labels-idx1-ubyte.gz to /home/fengwf/.putixin/data/FashionMNIST/raw/train-labels-idx1-ubyte.gz
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>111.0%</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Extracting /home/fengwf/.putixin/data/FashionMNIST/raw/train-labels-idx1-ubyte.gz to /home/fengwf/.putixin/data/FashionMNIST/raw
-Downloading http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/t10k-images-idx3-ubyte.gz to /home/fengwf/.putixin/data/FashionMNIST/raw/t10k-images-idx3-ubyte.gz
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>100.0%</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Extracting /home/fengwf/.putixin/data/FashionMNIST/raw/t10k-images-idx3-ubyte.gz to /home/fengwf/.putixin/data/FashionMNIST/raw
-Downloading http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/t10k-labels-idx1-ubyte.gz to /home/fengwf/.putixin/data/FashionMNIST/raw/t10k-labels-idx1-ubyte.gz
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>159.1%</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Extracting /home/fengwf/.putixin/data/FashionMNIST/raw/t10k-labels-idx1-ubyte.gz to /home/fengwf/.putixin/data/FashionMNIST/raw
-Processing...
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>/opt/conda/conda-bld/pytorch_1591914858748/work/torch/csrc/utils/tensor_numpy.cpp:141: UserWarning: The given NumPy array is not writeable, and PyTorch does not support non-writeable tensors. This means you can write to the underlying (supposedly non-writeable) NumPy array using the tensor. You may want to copy the array to protect its data or make it writeable before converting it to a tensor. This type of warning will be suppressed for the rest of this program.
-</pre>
-</div>
-</div>
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Done!
-</pre>
-</div>
 </div>
 
 </div>

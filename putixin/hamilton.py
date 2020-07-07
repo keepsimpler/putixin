@@ -26,7 +26,7 @@ class HamLinear(nn.Module):
         else:
             self.std = torch.tensor(std, dtype=torch.float)
 
-        self.W = nn.Parameter(torch.randn(row, col) / std)
+        self.W = nn.Parameter(torch.randn(row, col) / self.std)
 
         if is_alpha_trainable:
             self.alpha = nn.Parameter(torch.tensor(alpha))
